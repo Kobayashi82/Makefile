@@ -35,7 +35,8 @@
 - `make wipe`: 			Completely removes the build directory and all generated files silently.
 
 - `make bonus`: 		Compiles the bonus target specified in the `Makefile`.
-- `make $(NAME_B)`:		Compiles the target used for `$(NAME_B)` specified in the `Makefile`. If `$(NAME_B)` is the same as `$(NAME)`, then use `make $(NAME_B)_bonus`.
+- `make $(NAME_B)`:		Compiles the target used for `$(NAME_B)` specified in the `Makefile`.
+  If `$(NAME_B)` is the same as `$(NAME)`, then use `make $(NAME_B)_bonus`.
 - `make cleanb`: 		Removes bonus object files generated during compilation.
 - `make fcleanb`: 		Removes bonus object files and executable file.
 - `make reb`: 			Rebuilds the bonus target from scratch.

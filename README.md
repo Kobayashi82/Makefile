@@ -33,7 +33,8 @@
 - `make fclean`: 		Removes object files and executable files.
 - `make re`: 			Rebuilds the default target from scratch.
 - `make wipe`: 			Completely removes the build directory and all generated files silently.
-
+---
+### Bonus Commands
 - `make bonus`: 		Compiles the bonus target specified in the `Makefile`.
 - `make $(NAME_B)`:		Compiles the target used for `$(NAME_B)` specified in the `Makefile`.
   If `$(NAME_B)` is the same as `$(NAME)`, then use `make $(NAME_B)_bonus`.

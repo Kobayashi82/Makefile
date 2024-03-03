@@ -44,7 +44,7 @@
 ---
 ### Customization
 
-- `FLAGS`: 				Variable to customize compiler flags. Usually (`-Wall -Werror, -Wextra`)
+- `FLAGS`: 				Variable to customize compiler flags. Usually (`-Wall -Werror -Wextra`)
 - `EXTRA_FLAGS`: 		Variable to customize extra compiler flags. Usually used for specific projects where you need an extra flag
 - `ENABLE_LIBFT`:		Compile `libft` from `src/libft` and include the library generated in the project.
 - `ENABLE_BONUS`:		Enable the option to compile a `bonus` project.
@@ -56,6 +56,6 @@
 - Modify the `title` and `title_bonus` rules to customize the project titles displayed during compilation.
 ---
 - `MLX42` is included, you can delete it if you don't need it.
-- `src/libft` included the Makefile for ´libft´, you just need to add a `src` and `inc` folders, copy your files and add them in `libft/Makefile`.
+- `src/libft` include the Makefile for ´libft´, you just need to add a `src` and `inc` folders, copy your files and add them in `libft/Makefile`.
 ---
 <p style="text-align: center;">Kobayashi82 (vzurera-)</p>

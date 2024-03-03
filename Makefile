@@ -75,7 +75,7 @@ LIBFT_INC			= ./src/libft/inc/
 LIBFT_DIR			= ./src/libft/
 LIBFT				= libft.a
 # MLX_INC				= ./src/MLX42/include/MLX42/	# Add -I$(MLX_INC) to object compilation
-# MLX					= ./src/MLX42/libmlx42.a		# Add $(MLX) to 'gcc' command
+# MLX					= ./src/MLX42/libmlx42.a	# Add $(MLX) to 'gcc' command
 SRC_DIR				= ./src/$(NAME)/
 ifneq ($(NAME),$(NAME_B))
     ifeq ($(shell test -d ./src/$(NAME_B) && echo yes),yes)

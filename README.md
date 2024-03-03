@@ -54,6 +54,6 @@
 - Modify the `title` and `title_bonus` rules to customize the project titles displayed during compilation.
 ---
 - `MLX42` is included, you can delete it if you don't need it.
-- `src/libft` included the Makefile for ´libft´, you just need to add a `src` and `inc` folders, copy your files and add them in `src/libft/Makefile`.
+- `src/libft` included the Makefile for ´libft´, you just need to add a `src` and `inc` folders, copy your files and add them in `libft/Makefile`.
 ---
 <p style="text-align: center;">Kobayashi82 (vzurera-)</p>

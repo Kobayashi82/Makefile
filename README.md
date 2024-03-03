@@ -53,4 +53,7 @@
 - You can customize directory paths and file names according to your project structure.
 - Modify the `title` and `title_bonus` rules to customize the project titles displayed during compilation.
 ---
+NOTES: `MLX42` is included, you can delete it if you don't need it
+NOTES: `src/libft` included the Makefile for ´libft´, you just need to add a `src` and `inc` folders, copy your files and add them in `src/libft/Makefile`.
+---
 <p style="text-align: center;">Kobayashi82 (vzurera-)</p>

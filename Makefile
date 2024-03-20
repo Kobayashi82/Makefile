@@ -263,7 +263,7 @@ bonus_extra:
 
 re:
 #	Check if NAME is empty and source directory exists
-	@rm -f .is_re; if [ ! -n "$(NAME_B)" ] || [ ! -n "$(SRCS)" ] || [ ! -d "$(SRC_DIR)" ]; then printf "\n\t$(CYAN)source files doesn't exist\n\n$(NC)"; exit 1; fi
+	@rm -f .is_re; if [ ! -n "$(NAME)" ] || [ ! -n "$(SRCS)" ] || [ ! -d "$(SRC_DIR)" ]; then printf "\n\t$(CYAN)source files doesn't exist\n\n$(NC)"; exit 1; fi
 #	Hide cursor
 	@$(MAKE) -s hide_cursor
 #	FClean
